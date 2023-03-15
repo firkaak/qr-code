@@ -7,6 +7,13 @@ body {
     
     font-family: 'Outfit', sans-serif;
 }
+footer {
+    position:absolute;
+    bottom: 10px;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
 .card {
     background-color: hsl(0,0%,100%);
     position: absolute;
@@ -28,11 +35,11 @@ header{
 }
 h1 {
     color: hsl(218,44%,22%);
-    font-size: 22px;
+    font-size: 1.3rem;
     font-weight: 700;
 }
 p{
-    font-size: 15px;
+    font-size: 0.9375rem;
     color: hsl(220, 15%, 55%);
 }
 @media screen  and (max-width: 600px) {
